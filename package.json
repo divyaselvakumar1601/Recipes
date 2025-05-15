@@ -1,19 +1,15 @@
 {
-  "name": "recipes",
+  "name": "recipes-api",
   "version": "1.0.0",
-  "description": "will give recipes",
-  "license": "MIT",
-  "author": "",
-  "type": "commonjs",
+  "description": "A simple Recipes API",
   "main": "index.js",
   "scripts": {
-   "start": "node index.js"
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "mongoose": "^8.14.3",
-    "nodemon": "^3.1.10"
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "dotenv": "^16.3.1"
   }
 }
