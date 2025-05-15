@@ -1,18 +1,26 @@
-# 🍽 Recipes App API
+# 🍽️ Recipes API
 
-This is a RESTful CRUD API built with Node.js, Express.js, and MongoDB using Mongoose. It allows users to create, read, update, and delete recipes.
+A full-stack CRUD API for managing food recipes, built with Node.js, Express, and MongoDB.
 
----
+## 🚀 Live API
+[https://recipes-api-xao8.onrender.com](https://recipes-api-xao8.onrender.com)
 
-## 🔧 Tech Stack
+## 📦 Features
+- Create, Read, Update, Delete recipes
+- Category filter (e.g., Breakfast, Lunch)
+- MongoDB + Mongoose models
 
-- Node.js
-- Express.js
-- MongoDB & Mongoose
-- Postman (for API testing)
-- MVC Architecture
+## 📌 Endpoints
 
----
+### GET all recipes
+`GET /recipes`
 
-## 📁 Folder Structure
-
+### POST a new recipe
+`POST /recipes`
+```json
+{
+  "title": "Pasta",
+  "ingredients": "Pasta, sauce",
+  "instructions": "Cook and mix",
+  "category": "Lunch"
+}
