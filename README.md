@@ -3,7 +3,7 @@
 A full-stack CRUD API for managing food recipes, built with Node.js, Express, and MongoDB.
 
 ## 🚀 Live API
-[https://recipes-api-xao8.onrender.com](https://recipes-api-xao8.onrender.com)
+[https://recipes-api-xao8.onrender.com/recipes](https://recipes-api-xao8.onrender.com/recipes)
 
 ## 📦 Features
 - Create, Read, Update, Delete recipes
