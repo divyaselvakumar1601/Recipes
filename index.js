@@ -3,7 +3,7 @@ const Express=require("express");
 require("./db")
 
 const recipesrouter=require('./modules/recipes/recipes.controller')
-
+const PORT = process.env.PORT || 4000;
 
 //create Http server
 const HTTPServer=Express();
