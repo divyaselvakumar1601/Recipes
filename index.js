@@ -12,7 +12,7 @@ HTTPServer.use(Express.json());
 
 
 //Start ad listem to the incoming requests
-HTTPServer.listen(PORT,"localhost",
+HTTPServer.listen(PORT,"0.0.0.0",
     (error)=>{
         if(error){
             console.log("error",error)
